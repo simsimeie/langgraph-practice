@@ -44,3 +44,5 @@ Thumbs.db
 
 # Document files
 *.pdf
+*.md
+*.txt
