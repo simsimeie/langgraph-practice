@@ -1,0 +1,10 @@
+# LangGraph 1.x 학습 환경 requirements
+# 설치: pip install -r requirements.txt
+
+langgraph>=1.0.0          # LangGraph 핵심 패키지
+langchain>=0.3.0           # LangChain 코어
+langchain-openai>=0.2.0    # OpenAI 연동
+langchain-core>=0.3.0      # LangChain 핵심 추상화
+langsmith>=0.1.0           # 디버깅/추적 도구 (선택사항)
+python-dotenv>=1.0.0       # 환경변수 관리
+langgraph-checkpoint-sqlite>=1.0.0  # SQLite 체크포인터 (04장에서 사용)
